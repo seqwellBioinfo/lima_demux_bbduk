@@ -10,6 +10,7 @@ for example, SEQW102-002-01.hifi_reads.bc1003.bam  and SEQW102-002-01.hifi_reads
 
 ## How to run the pipeline
 The pipeline can be run using the scripts in the nextflow.sh script, run as bash nextflow.sh.
+The required inputs are hifi bam files, and seqWell LongPlex barcode.
 
 ```
 #!/bin/bash
