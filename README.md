@@ -22,7 +22,7 @@ $ tree
 │   └── pacbio_demux_bbduk.nf
 └── nextflow.sh
 ```
-The pipeline can be run using the scripts in the nextflow.sh script, run as bash nextflow.sh.
+The pipeline can be run using the scripts in the nextflow.sh script, run as bash `nextflow.sh`.
 The required inputs are hifi bam files, and seqWell LongPlex barcode.
 
 ```
