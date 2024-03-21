@@ -195,7 +195,7 @@ stat_ch = stats
 
 process bbduk_stats { 
 
-container 'rocker/verse:latest'
+container 'rocker/verse:4.3.1'
 
 publishDir path: 'bbduk_summary', pattern: '*.csv', mode: 'copy'
 
