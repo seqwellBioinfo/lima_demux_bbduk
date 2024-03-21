@@ -1,7 +1,7 @@
 
 # pacbio lima bbduk demux
 
-This is the work flow using lima and bbduk to do demux on pacbio data for seqwell kit.
+This is the work flow in nextflow pipeline using lima and bbduk to do demux on pacbio data for seqWell longplex kit.
 
 ## requirements: 
 for the hifi bam file name, it requires pacbio barcode info (for example bc1003) in the third string separated by .
