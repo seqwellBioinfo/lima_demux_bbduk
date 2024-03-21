@@ -10,7 +10,7 @@ For example, `SEQW102-002-01.hifi_reads.bc1003.bam` is an acceptable bam file na
 ## Docker containers used in this pipeline:
  - *lima*: quay.io/biocontainers/lima:2.7.1--h9ee0642_0
  - *samtools*: quay.io/biocontainers/samtools:1.19.2--h50ea8bc_1
- - *bbtools for bbduk* staphb/bbtools:39.01
+ - *bbtools* staphb/bbtools:39.01
  - *R* rocker/verse*:4.3.1
 
 
