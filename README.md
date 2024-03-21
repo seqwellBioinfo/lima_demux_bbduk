@@ -1,9 +1,9 @@
 
-#pacbio lima bbduk demux
+# pacbio lima bbduk demux
 
-this is the work flow using lima and bbduk to do demux on pacbio data for seqwell kit.
+This is the work flow using lima and bbduk to do demux on pacbio data for seqwell kit.
 
-requirements: 
+## requirements: 
 for the hifi bam file name, it requires pacbio barcode info (for example bc1003) in the third string separated by .
 for example, SEQW102-002-01.hifi_reads.bc1003.bam  and SEQW102-002-01.hifi_reads.bc1003copy.bam.
 
