@@ -9,7 +9,7 @@ For example, `SEQW102-002-01.hifi_reads.bc1003.bam` is an acceptable bam file na
 
 
 ## How to run the pipeline:
-Download the code and put the files in your working directory like this tree structure. Use `chmod +x bin/*` to make create_bbduk_summary.R executable.
+Download the code files and put the files in your working directory like this tree structure. Use `chmod +x bin/*` to make create_bbduk_summary.R executable.
 
 ```
 $ tree
