@@ -2,8 +2,8 @@
 
 
 samples=*.bam
-barcodes_i7=seqwell_UDI2_p7.fa
-barcodes_i5=seqwell_UDI2_p5.fa
+barcodes_i7=LongPlex_set3_i7_trimmed_adapters.fa
+barcodes_i5=LongPlex_set3_i5_trimmed_adapters.fa
 
 
 nextflow run \
