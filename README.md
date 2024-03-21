@@ -9,7 +9,7 @@ for example, SEQW102-002-01.hifi_reads.bc1003.bam  and SEQW102-002-01.hifi_reads
 
 
 ## How to run the pipeline:
-Download the code and put the files in this tree structure
+Download the code and put the files in this tree structure. Use chmod +x bin/* to make create_bbduk_summary.R executable.
 
 ```
 $ tree
