@@ -5,7 +5,7 @@ This is the work flow in nextflow pipeline using lima and bbduk to do demux on p
 
 ## Requirements: 
 For the hifi bam file name, it requires pacbio barcode info (for example bc1003) in the third string separated by .
-For example, SEQW102-002-01.hifi_reads.bc1003.bam  and SEQW102-002-01.hifi_reads.bc1003copy.bam are both acceptable bam file names. If you have bam file name different from this, please rename the file as the code is using the pattern to create and name lima produced files. 
+For example, `SEQW102-002-01.hifi_reads.bc1003.bam` is an acceptable bam file name. `bc1003` is used as a key for this hifi bam file in the pipeline. If you have bam file name different from this pattern, please rename the file as the code is using the pattern to create and name lima produced files. 
 
 
 ## How to run the pipeline:
