@@ -7,7 +7,7 @@ This is the work flow in nextflow pipeline using lima and bbduk to do demux on p
 For the hifi bam file name, it requires pacbio barcode info (for example bc1003) in the third string separated by .
 For example, `SEQW102-002-01.hifi_reads.bc1003.bam` is an acceptable bam file name. `bc1003` is used as a key for this hifi bam file in the pipeline. If you have bam file name different from this pattern, please rename the file as the code is using the pattern to create lima produced files. 
 
-## containers used in this pipeline:
+## Docker containers used in this pipeline:
  - lima: quay.io/biocontainers/lima:2.7.1--h9ee0642_0
  - quay.io/biocontainers/samtools:1.19.2--h50ea8bc_1
  - staphb/bbtools:39.01
